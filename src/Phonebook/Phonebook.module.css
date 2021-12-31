@@ -1,0 +1,47 @@
+.phonebookTitle {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.inputBox {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.label {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.input {
+  font-size: 17px;
+}
+.buttonBox {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.deleteButton {
+  text-decoration: none;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #d4cece;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  transition: 250ms;
+}
+
+.deleteButton:hover,
+.deleteButton:focus {
+  background-color: rgb(198, 131, 204);
+}

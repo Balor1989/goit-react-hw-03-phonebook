@@ -1,0 +1,40 @@
+.cardList {
+  list-style: none;
+  padding: 0;
+}
+.cardBox {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.cardBox:not(:last-child) {
+  margin-bottom: 20px;
+}
+.cardValues {
+  margin: 0;
+  font-size: 20px;
+}
+
+.deleteButton {
+  text-decoration: none;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #d4cece;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  transition: 250ms;
+}
+
+.deleteButton:hover,
+.deleteButton:focus {
+  background-color: rgb(198, 131, 204);
+}
