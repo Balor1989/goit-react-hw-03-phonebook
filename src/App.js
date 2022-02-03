@@ -1,11 +1,11 @@
 import s from './App.module.css';
 import { Component } from 'react/cjs/react.production.min';
-import Contacts from './Contacts/Contacts';
-import Phonebook from './Phonebook/Phonebook';
+import Contacts from './components/Contacts/Contacts';
+import Phonebook from './components/Phonebook/Phonebook';
 import shortid from 'shortid';
-import Filter from './Filter';
+import Filter from './components/Filter/Filter';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import contacts from './Contacts/contacts.json';
+import contacts from './components/Contacts/contacts.json';
 
 class App extends Component {
   state = {
